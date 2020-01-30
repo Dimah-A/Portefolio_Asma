@@ -6,7 +6,7 @@ const Contact = () => {
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 1427) {
+            if (window.scrollY > 2700) {
                 setTitre(' who  animated fadeInDown')
             } else {
                 setTitre('who')
@@ -20,7 +20,7 @@ const Contact = () => {
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 1427) {
+            if (window.scrollY > 2700) {
                 setChange(' aboutpara  animated fadeInDown')
             } else {
                 setChange('aboutpara')
@@ -34,7 +34,7 @@ const Contact = () => {
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 1427) {
+            if (window.scrollY > 2900) {
                 setSquare(' square mb-3  animated fadeInLeft')
             } else {
                 setSquare('square mb-3')
@@ -48,7 +48,7 @@ const Contact = () => {
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 1503) {
+            if (window.scrollY > 3000) {
                 setinput(' form-control mb-4 bg-light animated fadeInRight')
             } else {
                 setinput('form-control mb-4 bg-light')
@@ -61,7 +61,7 @@ const Contact = () => {
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 1680) {
+            if (window.scrollY > 3000) {
                 setLien(' d-flex justify-content-center align-items-center mx-auto"  animated slideInDown')
             } else {
                 setLien('d-flex justify-content-center align-items-center mx-auto"')
@@ -70,14 +70,14 @@ const Contact = () => {
         })
     })
 
-    const [btn, setBtn] = useState('btn bg-gradient mt-3')
+    const [btn, setBtn] = useState('btn ok mt-3')
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 1680) {
-                setBtn('btn bg-gradient mt-3 animated slideInRight')
+            if (window.scrollY > 3000) {
+                setBtn('btn ok mt-3 animated slideInRight')
             } else {
-                setBtn('btn bg-gradient mt-3')
+                setBtn('btn ok mt-3')
             }
 
         })
